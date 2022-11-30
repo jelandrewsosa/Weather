@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: "Roboto", Arial !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('assets/weatheringYou.jpg');
+  background-size: fit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media(min-width: 550px) {
+  body {
+    background-size: cover;
+  }
+}
